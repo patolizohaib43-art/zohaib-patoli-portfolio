@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zohaib Ahmed Patoli | Web App Developer &amp; Digital Solutions</title>
+<meta name="description" content="Portfolio of Zohaib Ahmed Patoli — Web App Developer specializing in Google Apps Script, Google Sheets, automation and practical educational digital solutions.">
+<meta property="og:title" content="Zohaib Ahmed Patoli | Web App Developer & Digital Solutions">
+<meta property="og:description" content="Practical web applications, educational management systems and automation solutions.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%23262F1E%22/><text x=%2250%22 y=%2266%22 font-size=%2250%22 fill=%22%23E3B23C%22 text-anchor=%22middle%22 font-family=%22Georgia%22>Z</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Nastaliq+Urdu:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="nav-logo-mark">ZAP</span>
+      <span class="nav-logo-full">Zohaib&nbsp;Ahmed&nbsp;Patoli</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#process">Process</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Let's Connect <span class="arrow">→</span></a>
+    <button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile" id="navMobile">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#process">Process</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="nav-mobile-cta">Let's Connect →</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-left" data-reveal>
+      <p class="eyebrow">Hello there <span class="wave">👋</span></p>
+      <h1 class="hero-title">
+        I'm <span class="hl">Zohaib</span> <span class="hl">Ahmed</span><br>
+        Patoli.
+      </h1>
+      <p class="hero-role">
+        <span>Web App Developer</span>
+        <span class="dot">✦</span>
+        <span>Digital Solutions Developer</span>
+      </p>
+      <p class="hero-desc">I build practical web applications, educational management systems and automation solutions that turn real-world problems into simple digital experiences.</p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-dark">View My Projects <span class="arrow">→</span></a>
+        <a href="#contact" class="btn btn-ghost">Let's Connect <span class="arrow">→</span></a>
+      </div>
+
+      <div class="hero-signature">
+        <span class="urdu">زوہیب احمد پاڻولي</span>
+      </div>
+    </div>
+
+    <div class="hero-right" data-reveal>
+      <div class="hero-visual" style="position:relative;">
+        <img src="images/banner.jpg" alt="Zohaib Ahmed Patoli — Web App Developer &amp; Digital Solutions Developer"
+             style="width:100%; height:auto; border-radius:20px; box-shadow:0 20px 50px rgba(0,0,0,0.25); display:block;">
+
+        <span class="float-label fl-1">Web App</span>
+        <span class="float-label fl-2">Automation</span>
+        <span class="float-label fl-3">EdTech</span>
+        <span class="float-label fl-4">Google Apps Script</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span></span>
+    <p>Scroll</p>
+  </div>
+</header>
+
+<!-- ============ MARQUEE ============ -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>WEB APP DEVELOPMENT</span><span class="sep">✦</span>
+    <span>GOOGLE APPS SCRIPT</span><span class="sep">✦</span>
+    <span>EDUCATION TECHNOLOGY</span><span class="sep">✦</span>
+    <span>AUTOMATION</span><span class="sep">✦</span>
+    <span>GOOGLE SHEETS</span><span class="sep">✦</span>
+    <span>DIGITAL SOLUTIONS</span><span class="sep">✦</span>
+    <span>WEB APP DEVELOPMENT</span><span class="sep">✦</span>
+    <span>GOOGLE APPS SCRIPT</span><span class="sep">✦</span>
+    <span>EDUCATION TECHNOLOGY</span><span class="sep">✦</span>
+    <span>AUTOMATION</span><span class="sep">✦</span>
+    <span>GOOGLE SHEETS</span><span class="sep">✦</span>
+    <span>DIGITAL SOLUTIONS</span><span class="sep">✦</span>
+  </div>
+</div>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <p class="eyebrow" data-reveal>— What I Do</p>
+    <h2 class="section-title" data-reveal>Services I Provide</h2>
+
+    <div class="services-grid">
+      <article class="service-card" data-reveal>
+        <span class="service-num">01</span>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="4" y="8" width="32" height="24" rx="3" stroke="currentColor" stroke-width="1.6"/><path d="M4 14h32" stroke="currentColor" stroke-width="1.6"/><circle cx="9" cy="11" r="1" fill="currentColor"/><circle cx="13" cy="11" r="1" fill="currentColor"/></svg>
+        </div>
+        <h3>Web Application Development</h3>
+        <p>Building responsive and practical web applications designed for real-world users.</p>
+        <a href="#projects" class="card-link">Learn More <span class="arrow">→</span></a>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <span class="service-num">02</span>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M20 5 34 12v16L20 35 6 28V12L20 5Z" stroke="currentColor" stroke-width="1.6"/><path d="M20 5v30M6 12l14 7 14-7" stroke="currentColor" stroke-width="1.6"/></svg>
+        </div>
+        <h3>Educational Management Systems</h3>
+        <p>Creating digital systems for schools, students, teachers and educational organizations.</p>
+        <a href="#projects" class="card-link">Learn More <span class="arrow">→</span></a>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <span class="service-num">03</span>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="6" width="28" height="20" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="M6 12h28M13 6v6M20 6v6M27 6v6" stroke="currentColor" stroke-width="1.6"/><path d="M14 32h12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Google Apps Script Solutions</h3>
+        <p>Developing cloud-based applications and automated workflows using Google Apps Script and Google Sheets.</p>
+        <a href="#projects" class="card-link">Learn More <span class="arrow">→</span></a>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <span class="service-num">04</span>
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none"><path d="M8 20a12 12 0 0 1 20.5-8.5L32 8M32 8v7h-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M32 20a12 12 0 0 1-20.5 8.5L8 32M8 32v-7h7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Digital Automation</h3>
+        <p>Turning repetitive workflows into simpler and more efficient digital processes.</p>
+        <a href="#projects" class="card-link">Learn More <span class="arrow">→</span></a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="container about-inner">
+    <div class="about-visual" data-reveal>
+      <div class="about-visual-frame">
+        <svg viewBox="0 0 320 380" class="about-illustration" aria-hidden="true">
+          <rect x="10" y="10" width="300" height="360" rx="24" fill="#33402A"/>
+          <rect x="34" y="42" width="252" height="150" rx="10" fill="#3F4E33"/>
+          <rect x="50" y="60" width="120" height="10" rx="5" fill="#E3B23C"/>
+          <rect x="50" y="80" width="180" height="6" rx="3" fill="#F1EAD9" opacity="0.5"/>
+          <rect x="50" y="94" width="150" height="6" rx="3" fill="#F1EAD9" opacity="0.35"/>
+          <rect x="50" y="118" width="60" height="52" rx="6" fill="#E3B23C" opacity="0.9"/>
+          <rect x="122" y="118" width="60" height="52" rx="6" fill="#F1EAD9" opacity="0.15"/>
+          <rect x="194" y="118" width="68" height="52" rx="6" fill="#F1EAD9" opacity="0.15"/>
+          <rect x="34" y="206" width="120" height="150" rx="10" fill="#3F4E33"/>
+          <circle cx="94" cy="256" r="26" fill="#E3B23C" opacity="0.85"/>
+          <rect x="50" y="298" width="88" height="6" rx="3" fill="#F1EAD9" opacity="0.4"/>
+          <rect x="50" y="312" width="60" height="6" rx="3" fill="#F1EAD9" opacity="0.25"/>
+          <rect x="166" y="206" width="120" height="150" rx="10" fill="#3F4E33"/>
+          <g stroke="#E3B23C" stroke-width="2" opacity="0.9">
+            <path d="M186 320 L206 290 L226 305 L250 260 L268 240"/>
+          </g>
+          <circle cx="186" cy="320" r="3.5" fill="#E3B23C"/>
+          <circle cx="206" cy="290" r="3.5" fill="#E3B23C"/>
+          <circle cx="226" cy="305" r="3.5" fill="#E3B23C"/>
+          <circle cx="250" cy="260" r="3.5" fill="#E3B23C"/>
+          <circle cx="268" cy="240" r="3.5" fill="#E3B23C"/>
+        </svg>
+      </div>
+    </div>
+
+    <div class="about-content" data-reveal>
+      <p class="eyebrow eyebrow--light">— About Me</p>
+      <h2 class="section-title section-title--light">Who is<br>Zohaib Ahmed Patoli?</h2>
+      <p class="about-text">I'm Zohaib Ahmed Patoli, a Web App Developer and Digital Solutions Developer focused on creating practical technology solutions for educational institutions and organizations.</p>
+      <p class="about-text">I enjoy turning real-world problems into simple, efficient and user-friendly digital systems.</p>
+      <p class="about-text">My work includes online marksheet systems, certificate management platforms and interactive MCQ competition systems, with a strong focus on Google Sheets, Google Apps Script and modern web technologies.</p>
+
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Featured Projects</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">3</span>
+          <span class="stat-label">Educational Solutions</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">Google</span>
+          <span class="stat-label">Cloud-Based Development</span>
+        </div>
+      </div>
+
+      <a href="#projects" class="btn btn-gold">View My Projects <span class="arrow">→</span></a>
+
+      <div class="about-sign">
+        <span class="urdu urdu--light">زوہیب احمد پاڻولي</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="container">
+    <p class="eyebrow" data-reveal>— My Work</p>
+    <h2 class="section-title" data-reveal>Featured Projects</h2>
+    <p class="section-sub" data-reveal>Real-world digital solutions built to solve practical problems.</p>
+
+    <div class="projects-list">
+
+      <!-- PROJECT 01 -->
+      <article class="project-card" data-reveal>
+        <div class="project-visual">
+          <img src="images/project-marksheet.png" alt="Rise Online Marksheet System screenshot"
+             style="width:100%; height:auto; border-radius:14px; box-shadow:0 16px 40px rgba(0,0,0,0.18); display:block;">
+        </div>
+        <div class="project-info">
+          <span class="project-cat">Education Technology</span>
+          <h3>Rise School<br>Online Marksheet System</h3>
+          <p>An online marksheet and result management system developed for Rise School to make student result management more organized, accessible and digital.</p>
+          <ul class="project-features">
+            <li>Online result lookup</li>
+            <li>Digital marksheet</li>
+            <li>Automated result processing</li>
+            <li>Student data management</li>
+            <li>Admin management</li>
+          </ul>
+          <div class="tech-badges">
+            <span>Google Sheets</span><span>Google Apps Script</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <button class="btn btn-outline case-study-btn" data-project="marksheet">View Case Study <span class="arrow">→</span></button>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="project-card project-card--reverse" data-reveal>
+        <div class="project-visual">
+          <img src="images/project-certificate.png" alt="Rise Computer Center Online Certificate System screenshot"
+             style="width:100%; height:auto; border-radius:14px; box-shadow:0 16px 40px rgba(0,0,0,0.18); display:block;">
+        </div>
+        <div class="project-info">
+          <span class="project-cat">Education Technology</span>
+          <h3>Rise Computer Center<br>Online Certificate System</h3>
+          <p>An online certificate management system developed for Rise Computer Center where students can apply for course completion certificates online and download them after administrative approval.</p>
+          <ul class="project-features">
+            <li>Online certificate application</li>
+            <li>Student information</li>
+            <li>Admin review &amp; approval workflow</li>
+            <li>Certificate generation</li>
+            <li>Online certificate download</li>
+          </ul>
+          <div class="tech-badges">
+            <span>Google Sheets</span><span>Google Apps Script</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <button class="btn btn-outline case-study-btn" data-project="certificate">View Case Study <span class="arrow">→</span></button>
+        </div>
+      </article>
+
+      <!-- PROJECT 03 -->
+      <article class="project-card" data-reveal>
+        <div class="project-visual">
+          <img src="images/project-mcq.png" alt="Online MCQ Competition System screenshot"
+             style="width:100%; height:auto; border-radius:14px; box-shadow:0 16px 40px rgba(0,0,0,0.18); display:block;">
+        </div>
+        <div class="project-info">
+          <span class="project-cat">Education Technology • Live Competition</span>
+          <h3>Online MCQ<br>Competition System</h3>
+          <p>An interactive online MCQ competition system featuring an admin control panel, live questions, big-screen display, automatic scoring and live leaderboard.</p>
+          <ul class="project-features">
+            <li>Admin panel &amp; live MCQ questions</li>
+            <li>Big-screen question display</li>
+            <li>Automatic evaluation &amp; scoring</li>
+            <li>Live leaderboard &amp; ranking</li>
+            <li>Competition management &amp; results</li>
+          </ul>
+          <div class="tech-badges">
+            <span>Google Sheets</span><span>Google Apps Script</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <button class="btn btn-outline case-study-btn" data-project="mcq">View Case Study <span class="arrow">→</span></button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section section--cream" id="process">
+  <div class="container">
+    <p class="eyebrow" data-reveal>— My Process</p>
+    <h2 class="section-title" data-reveal>From Idea<br>to Digital Solution</h2>
+
+    <div class="timeline">
+      <div class="timeline-line" aria-hidden="true"></div>
+      <div class="timeline-step" data-reveal>
+        <span class="tl-num">01</span>
+        <h3>Understand</h3>
+        <p>Understand the problem and requirements.</p>
+      </div>
+      <div class="timeline-step" data-reveal>
+        <span class="tl-num">02</span>
+        <h3>Plan</h3>
+        <p>Plan the workflow and user experience.</p>
+      </div>
+      <div class="timeline-step" data-reveal>
+        <span class="tl-num">03</span>
+        <h3>Build</h3>
+        <p>Develop the web application and automation.</p>
+      </div>
+      <div class="timeline-step" data-reveal>
+        <span class="tl-num">04</span>
+        <h3>Test</h3>
+        <p>Test functionality and user experience.</p>
+      </div>
+      <div class="timeline-step" data-reveal>
+        <span class="tl-num">05</span>
+        <h3>Deploy</h3>
+        <p>Deploy the final digital solution.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLKIT ============ -->
+<section class="section" id="skills">
+  <div class="container">
+    <p class="eyebrow" data-reveal>— My Toolkit</p>
+    <h2 class="section-title" data-reveal>Tools &amp; Technologies<br>Behind My Projects</h2>
+
+    <div class="tool-grid">
+      <div class="tool-card" data-reveal><span class="tool-icon">⌘</span><span>Google Apps Script</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">▤</span><span>Google Sheets</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">◆</span><span>HTML5</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">◈</span><span>CSS3</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">▣</span><span>JavaScript</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">◫</span><span>Web Applications</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">⟳</span><span>Automation</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">✦</span><span>AI-Assisted Development</span></div>
+      <div class="tool-card" data-reveal><span class="tool-icon">▥</span><span>Responsive Web Design</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHAT I BUILD ============ -->
+<section class="section section--cream" id="build">
+  <div class="container">
+    <p class="eyebrow" data-reveal>— Focus Areas</p>
+    <h2 class="section-title" data-reveal>What I Build</h2>
+
+    <div class="build-grid">
+      <div class="build-card" data-reveal>
+        <div class="build-icon">🎓</div>
+        <h3>Educational Systems</h3>
+        <p>Digital systems that make school and institutional operations simpler.</p>
+      </div>
+      <div class="build-card" data-reveal>
+        <div class="build-icon">📄</div>
+        <h3>Result &amp; Certificate Systems</h3>
+        <p>Automated pipelines for issuing, approving and distributing results and certificates.</p>
+      </div>
+      <div class="build-card" data-reveal>
+        <div class="build-icon">🖥️</div>
+        <h3>Interactive Web Applications</h3>
+        <p>Responsive, practical applications built around real user needs.</p>
+      </div>
+      <div class="build-card" data-reveal>
+        <div class="build-icon">⚙️</div>
+        <h3>Automation &amp; Digital Solutions</h3>
+        <p>Workflows that remove repetitive manual work through smart automation.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PERSONAL BRANDING ============ -->
+<section class="branding">
+  <div class="container branding-inner" data-reveal>
+    <p class="branding-name">Zohaib Ahmed Patoli</p>
+    <p class="urdu urdu--brand">زوہیب احمد پاڻولي</p>
+    <p class="branding-tagline">Building practical digital solutions with technology, creativity and purpose.</p>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-left" data-reveal>
+      <p class="eyebrow">— Get in Touch</p>
+      <h2 class="section-title">Let's Build<br>Something Useful.</h2>
+      <p class="section-sub">Have an idea for a web application, educational system or automation solution? Let's turn it into a practical digital solution.</p>
+
+      <div class="contact-channels">
+        <a href="#" class="channel">Email <span class="channel-value">[add your email]</span></a>
+        <a href="#" class="channel">WhatsApp <span class="channel-value">[add your number]</span></a>
+        <a href="#" class="channel">LinkedIn <span class="channel-value">[add your profile]</span></a>
+        <a href="#" class="channel">GitHub <span class="channel-value">[add your profile]</span></a>
+      </div>
+    </div>
+
+    <form class="contact-form" data-reveal id="contactForm">
+      <label>Name
+        <input type="text" name="name" placeholder="Your name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+      <label>Project Type
+        <select name="projectType">
+          <option>Web Application</option>
+          <option>Educational System</option>
+          <option>Automation</option>
+          <option>Google Apps Script</option>
+          <option>Custom Digital Solution</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Message
+        <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+      </label>
+      <button type="submit" class="btn btn-dark btn-full">Send Message <span class="arrow">→</span></button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <p class="footer-name">Zohaib Ahmed Patoli</p>
+      <p class="urdu urdu--light">زوہیب احمد پاڻولي</p>
+      <p class="footer-tagline">Building practical digital solutions with technology, creativity and purpose.</p>
+    </div>
+    <nav class="footer-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Zohaib Ahmed Patoli. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- ============ PROJECT MODAL ============ -->
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal" id="modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" aria-label="Close case study">✕</button>
+    <div class="modal-content" id="modalContent"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
